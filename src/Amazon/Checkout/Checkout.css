@@ -1,0 +1,7 @@
+.checkout{
+    display: flex;
+}
+
+.checkout__left{
+    width: 70%;
+}

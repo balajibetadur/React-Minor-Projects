@@ -1,7 +1,8 @@
 import React from "react";
 import "./Header.css";
-import SearchRoundedIcon from '@mui/icons-material/SearchRounded';
-import ShoppingBasketRoundedIcon from '@mui/icons-material/ShoppingBasketRounded';
+import SearchRoundedIcon from "@mui/icons-material/SearchRounded";
+import ShoppingBasketRoundedIcon from "@mui/icons-material/ShoppingBasketRounded";
+import { Link } from 'react-router-dom';
 
 function Header() {
   return (
@@ -14,26 +15,30 @@ function Header() {
 
       <div className="header__search">
         <input type="text" className="header__search__input" />
-        <SearchRoundedIcon className='header__search__icon'/>
+        <SearchRoundedIcon className="header__search__icon" />
       </div>
 
       <div className="header__nav">
         <div className="header__option">
-            <span className="header__option__lineOne">Hello Guest</span>
-            <span className="header__option__lineTwo">SignIn</span>
+          <span className="header__option__lineOne">Hello Guest</span>
+          <span className="header__option__lineTwo">SignIn</span>
         </div>
         <div className="header__option">
-            <span className="header__option__lineOne">Returns</span>
-            <span className="header__option__lineTwo">& Orders</span>
+          <span className="header__option__lineOne">Returns</span>
+          <span className="header__option__lineTwo">& Orders</span>
         </div>
         <div className="header__option">
-            <span className="header__option__lineOne">Your</span>
-            <span className="header__option__lineTwo">Prime</span>
+          <span className="header__option__lineOne">Your</span>
+          <span className="header__option__lineTwo">Prime</span>
         </div>
-        <div className="header__option__basket">
-            <ShoppingBasketRoundedIcon className='header__basket__icon'/>
-            <span className="header__option__lineTwo header__basket__count">0</span>
-        </div>
+        <Link to='/checkout'>
+          <div className="header__option__basket">
+            <ShoppingBasketRoundedIcon className="header__basket__icon" />
+            <span className="header__option__lineTwo header__basket__count">
+              0
+            </span>
+          </div>
+        </Link>
       </div>
     </div>
   );

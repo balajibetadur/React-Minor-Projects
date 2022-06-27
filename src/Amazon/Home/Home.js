@@ -12,16 +12,16 @@ function Home() {
           alt=""
         />
         <div className="home__row">
-          <Product />
-          <Product />
+          <Product id = {1}/>
+          <Product id = {2}/>
         </div>
         <div className="home__row">
-          <Product />
-          <Product />
-          <Product />
+          <Product id = {3}/>
+          <Product id = {4}/>
+          <Product id = {5}/>
         </div>
         <div className="home__row">
-          <Product />
+          <Product id = {6}/>
         </div>
       </div>
     </div>
