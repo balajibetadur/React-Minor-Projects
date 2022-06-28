@@ -3,6 +3,9 @@
 # dependencies
 /node_modules
 /.pnp
+/src/Flip
+/src/Flip.js
+/public/Flip
 .pnp.js
 
 # testing
