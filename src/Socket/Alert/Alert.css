@@ -1,0 +1,24 @@
+.alert__card{
+    position: absolute;
+    top: 10px;
+    left: 50%;
+    transform: translate(-50%);
+    margin-top: -100px;
+}
+
+.box{
+    height: 20px;
+    width: 20px;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.show__card{
+    margin-top: 10px;
+    transition: 1s;
+}
+
+.hide__card{
+    margin-top: -100px;
+    transition: 1s;
+}

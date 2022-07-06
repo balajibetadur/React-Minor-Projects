@@ -1,0 +1,159 @@
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+}
+
+.bg-img-video{
+    object-fit: cover;
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.backdrop{
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.content{
+    box-shadow: 0 0 5px 5px rgba(66, 64, 64, 0.264);
+    border-radius: 10px;
+    position: absolute;
+    z-index: 100;
+    text-align: center;
+    padding: 20px 30px;
+    background: rgba(255, 255, 255, 0.3);
+    border: 1px solid rgba(255, 255, 255, 0.6);
+}
+
+.join__header{
+    letter-spacing: 4px;
+    font-size: 20px;
+    font-weight: bold;
+    color: rgba(255, 255, 255, 0.7);
+    padding: 20px;
+}
+
+.feild{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+    background-color: rgba(255, 255, 255, 0.925);
+    padding: 5px;
+    width: 260px;
+    /* border-radius: 5px; */
+    box-shadow: 0 0 5px 5px rgba(128, 128, 128, 0.67);
+}
+
+.feild > input{
+    border: none;
+    background-color: transparent;
+    width: 100%;
+}
+
+.logo{
+    transform: scale(0.8);
+    padding-right: 5px;
+    color: rgb(37, 37, 37);
+}
+
+.auth{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    font-weight: bold;
+    color: rgba(186, 82, 82, 0.629);    
+}
+.auth:hover{
+    cursor: pointer;
+}
+
+/* .logo > p{
+    
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0 !important;
+} */
+
+.show:hover,
+.hide:hover{
+    cursor: pointer;
+}
+.pass{
+    text-align: left;
+    padding-left: 10px;
+}
+
+.pass > a{
+    text-decoration: none;
+    color: white;
+}
+
+.submit__button{
+    box-shadow: 0 0 5px 5px rgba(66, 64, 64, 0.264);
+    width:260px;
+    margin: 25px 10px 10px 10px;
+    background-color: rgb(58, 24, 195);
+    border: none;
+    color: rgba(255, 255, 255, 0.744);
+    font-weight: bold;
+    letter-spacing: 3px;
+    padding: 10px;
+    
+}
+.submit__button:hover{
+    cursor: pointer;
+}
+
+.confirm{
+    text-align: left;
+    background-color: rgba(0, 0, 0, 0.3);
+    padding: 5px;
+    margin: 10px;
+    font-weight: bold;
+    min-height: 0;
+}
+
+.google__login{
+    width: 260px;
+    padding: 10px;
+    border: none;
+    height: 40px;
+}
+
+.switch{
+    margin-top: 20px;
+    text-align: left;
+    padding-left: 10px;
+}
+
+.switch > a{
+    color: white !important;
+    text-decoration: none;
+}
+
+
+.upload__image__text{
+    margin: 0 !important;
+    width: 100%;
+    text-align: left;
+    color: grey;
+}
+
+
+.upload__image__text:hover{
+    cursor: pointer;
+}

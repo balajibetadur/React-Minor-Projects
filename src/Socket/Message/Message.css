@@ -1,0 +1,51 @@
+.self__message{
+    display:flex;
+    justify-content: end;
+}
+.other__message{
+    display:flex;
+    justify-content: start;
+}
+
+.text{
+    padding: 5px 10px;
+    background-color: aliceblue;
+    border-radius: 5px;
+    margin: 0 25px 10px 25px;
+    width: max-content;
+    max-width: 70%;
+    min-width: 50px;
+    min-height: 25px;
+    overflow:
+}
+
+.messageBox{
+    width: max-content;
+}
+.self__message > div{
+    display: flex;
+    flex-direction: column;
+    text-align: end;
+}
+
+.self__message > div > span{
+    margin: 10px 25px 0 25px;
+    opacity: 0.5;
+}
+
+.other__message > div{
+    display: flex;
+    flex-direction: column;
+    text-align:start;   
+    margin-left: 25px;
+}
+
+.other__message > div > span{
+    margin: 10px 25px 0 25px;
+    opacity: 0.5;
+}
+
+.userName{
+    padding: 10px 25px 0 25px;
+    opacity: 0.5;
+}
