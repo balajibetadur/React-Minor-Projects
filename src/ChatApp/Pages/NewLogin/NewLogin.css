@@ -1,0 +1,24 @@
+.new__login{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    /* background-color: aqua; */
+    overflow: hidden;
+}
+
+.login__content{
+    position: absolute;
+}
+
+/* video{
+    object-fit: cover;
+    height: 95%;
+} */
+
+.login__backdrop{
+    height: 100vh;
+    width: 100%;
+    background-color: rgba(0,0,0,0.5);
+    position: absolute;
+}
